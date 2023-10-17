@@ -1,0 +1,18 @@
+.chart-bar__inner {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.chart-bar__fill {
+  background-color: #dcbbf0;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.chart-bar__fill:hover {
+  background-color: #5e0a91;
+}

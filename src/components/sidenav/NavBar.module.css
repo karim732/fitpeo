@@ -1,0 +1,9 @@
+.sidebar {
+  height: 100vh;
+  position: fixed !important;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 15px;
+}

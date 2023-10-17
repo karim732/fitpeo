@@ -1,0 +1,15 @@
+.dashboardItem {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dashboardItemDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}

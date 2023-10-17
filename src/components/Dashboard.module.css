@@ -1,0 +1,17 @@
+main {
+  margin-left: 250px;
+  background-color: #f2f2f5;
+  width: 100%;
+}
+.dashboard {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin-left: 0px;
+  }
+}

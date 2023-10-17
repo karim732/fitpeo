@@ -1,0 +1,11 @@
+.charts {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 7fr 3fr;
+}
+
+@media screen and (max-width: 768px) {
+  .charts {
+    grid-template-columns: auto;
+  }
+}
