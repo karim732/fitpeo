@@ -1,6 +1,6 @@
 ### Deployment Link
 
-[Fitpeo deployment](https://fitpeo-karim.netlify.app/))
+[Fitpeo deployment](https://fitpeo-karim.netlify.app/)
 
 # Getting Started with Create React App
 
