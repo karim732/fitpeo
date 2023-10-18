@@ -16,3 +16,9 @@
 .chart-bar__fill:hover {
   background-color: #5e0a91;
 }
+
+@media screen and (max-width: 440px) {
+  .periodtext {
+    font-size: 8px;
+  }
+}

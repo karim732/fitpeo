@@ -17,7 +17,9 @@ const BarChartItem = (props) => {
           style={{ height: props.details.height + "%" }}
         ></div>
       </div>
-      <div className="fs-6 text-center">{props.details.period}</div>
+      <div className={classes.periodtext + " text-center"}>
+        {props.details.period}
+      </div>
     </div>
   );
 };
