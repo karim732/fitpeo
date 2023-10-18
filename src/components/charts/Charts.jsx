@@ -4,7 +4,7 @@ import classes from "./Charts.module.css";
 const Charts = () => {
   return (
     <div className={classes.charts}>
-      <BarChart />
+      <BarChart style={{ width: "100%" }} />
       <PieChart />
     </div>
   );

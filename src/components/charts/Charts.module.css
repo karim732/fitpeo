@@ -4,8 +4,8 @@
   grid-template-columns: 7fr 3fr;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .charts {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import classes from "./DataTableLocal.module.css";
 import { FilterMatchMode } from "primereact/api";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
@@ -51,20 +51,21 @@ const DataTableLocal = () => {
   const spanIconStyle = { marginRight: "15px" };
   const iconStyle = { top: "1.3rem" };
   const header = (
-    <div className="d-flex justify-content-between">
+    <div className="d-flex justify-content-between flex-wrap">
       <span>
         <p className="fs-4 mt-2 mb-2 mr-auto ml-auto">Product Sell</p>
       </span>
-      <span className="d-flex justify-content-between">
-        <span className="p-input-icon-left" style={spanIconStyle}>
+      <span className="d-flex justify-content-between flex-wrap w-100">
+        <span className="p-input-icon-left mb-2" style={spanIconStyle}>
           <i className="bi bi-search" style={iconStyle} />
           <InputText
             value={globalFilterValue}
             onChange={onGlobalFilterChange}
             placeholder="Keyword Search"
+            className="w-100"
           />
         </span>
-        <select className="form-select">
+        <select className={classes.formselect + " form-select mb-2"}>
           <option value="30">Last 30 days</option>
           <option value="15">Last 15 days</option>
           <option value="7">Last 7 days</option>

@@ -1,0 +1,15 @@
+.formselect {
+  width: 30% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .formselect {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .formselect {
+    width: 80% !important;
+  }
+}

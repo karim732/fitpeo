@@ -10,7 +10,7 @@ const BarChart = () => {
     setChartDetails(
       event.target.value === "month" ? monthDetails : quaterDetails
     );
-    setChartWidth(event.target.value === "month" ? "6%" : "20%");
+    setChartWidth(event.target.value === "month" ? "6%" : "18%");
   };
   return (
     <div className={classes["chart-body"] + " d-flex flex-column text-center"}>

@@ -1,0 +1,5 @@
+@media screen and (max-width: 370px) {
+  .pieChartWidth {
+    width: 80%;
+  }
+}

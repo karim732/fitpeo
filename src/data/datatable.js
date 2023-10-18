@@ -1,4 +1,3 @@
-import { InputText } from "primereact/inputtext";
 export const CustomerData = [
   {
     id: 1000,
