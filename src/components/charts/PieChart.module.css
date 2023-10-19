@@ -3,3 +3,7 @@
     width: 80%;
   }
 }
+
+.pieChartWidth {
+  height: 350px !important;
+}
