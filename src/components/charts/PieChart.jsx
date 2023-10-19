@@ -9,14 +9,13 @@ const PieChart = () => {
 
   return (
     <div
-      className={classes.pieChartWidth + " card flex justify-content-center"}
+      className={classes.pieChartWidth + " card d-flex justify-content-center"}
     >
       <Chart
         type="doughnut"
         data={chartData}
         options={chartOptions}
-        className="w-full"
-        // height="300px"
+        className="w-full d-flex justify-content-center"
       />
     </div>
   );

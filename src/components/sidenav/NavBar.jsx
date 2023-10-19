@@ -27,7 +27,7 @@ const NavBar = ({ onToggle, toggled }) => {
       toggled={toggled}
       onBackdropClick={() => onToggle(false)}
       onBreakPoint={() => {
-        onToggle(true);
+        onToggle(false);
       }}
       breakPoint="md"
       backgroundColor="#1f0a38"

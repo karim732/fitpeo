@@ -4,7 +4,7 @@ import Dashboard from "./components/Dashboard";
 import NavBar from "./components/sidenav/NavBar";
 
 function App() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   return (
     <div className="d-flex">

@@ -55,7 +55,7 @@ const DataTableLocal = () => {
       <span>
         <p className="fs-4 mt-2 mb-2 mr-auto ml-auto">Product Sell</p>
       </span>
-      <span className="d-flex justify-content-between flex-wrap w-100">
+      <span className="d-flex justify-content-between flex-wrap">
         <span className="p-input-icon-left mb-2" style={spanIconStyle}>
           <i className="bi bi-search" style={iconStyle} />
           <InputText
